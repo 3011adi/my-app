@@ -6,14 +6,22 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "start:express": "nodemon express/index.js"
   },
   "dependencies": {
+    "@prisma/client": "^6.3.1",
+    "@supabase/supabase-js": "^2.48.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "next": "15.1.6",
+    "prisma": "^6.3.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.6"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "nodemon": "^3.1.9",
     "postcss": "^8",
     "tailwindcss": "^3.4.1"
   }
